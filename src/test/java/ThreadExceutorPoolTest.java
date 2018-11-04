@@ -8,9 +8,10 @@ public class ThreadExceutorPoolTest {
 
 
     public static void main(String[] args) {
+        test01();
 //        test02();
 //        test03();
-        test04();
+//        test04();
 
     }
 
@@ -20,10 +21,10 @@ public class ThreadExceutorPoolTest {
     public static void test01(){
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200
                 , TimeUnit.MILLISECONDS, new ArrayBlockingQueue<Runnable>(5));
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 16; i++) {
             MyTask task = new MyTask(i);
             executor.execute(task);
-            System.out.println("线程中线程数目:" + executor.getPoolSize());
+            System.out.println("线程池中线程数目:" + executor.getPoolSize());
             System.out.println("队列中等待执行的任务数目:" + executor.getQueue().size());
             System.out.println("已执行完毕的任务数目:" + executor.getCompletedTaskCount());
         }
