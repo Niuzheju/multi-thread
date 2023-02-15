@@ -13,7 +13,7 @@ import java.util.concurrent.CyclicBarrier;
 public class CyclicBarrierTest {
 
     //传入一个数目以及一个Runnable实现
-    private CyclicBarrier cyclicBarrier = new CyclicBarrier(4, () -> System.out.println("缓存写入完毕, 开始回收jvm..."));
+    private final CyclicBarrier cyclicBarrier = new CyclicBarrier(4, () -> System.out.println("缓存写入完毕, 开始回收jvm..."));
 
     @Test
     public void test01() throws InterruptedException {

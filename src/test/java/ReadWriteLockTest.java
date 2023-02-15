@@ -14,14 +14,19 @@ public class ReadWriteLockTest {
         final ReentrantReadWriteLock lock = new ReentrantReadWriteLock(false);
         final ReentrantReadWriteLock.ReadLock readLock = lock.readLock();
         final ReentrantReadWriteLock.WriteLock writeLock = lock.writeLock();
-        readLock.lock();
-        readLock.unlock();
 
         new Thread(() -> {
 
             writeLock.lock();
+            System.out.println("获取写锁");
+
+        }).start();
+
+        new Thread(() -> {
+
+            readLock.lock();
             System.out.println("获取读锁");
-            writeLock.unlock();
+            readLock.unlock();
 
         }).start();
 

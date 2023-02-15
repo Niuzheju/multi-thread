@@ -14,7 +14,7 @@ import java.util.concurrent.Semaphore;
 public class SemaphoreThread {
     private int a = 1;
 
-    class Bank{
+    static class Bank{
         private int account = 20;
 
         public int getAccount() {
@@ -27,9 +27,9 @@ public class SemaphoreThread {
     }
 
     class WorkThread implements Runnable{
-        private Bank bank;
+        private final Bank bank;
 
-        private Semaphore semaphore;
+        private final Semaphore semaphore;
 
         private WorkThread(Bank bank, Semaphore semaphore) {
             this.bank = bank;
