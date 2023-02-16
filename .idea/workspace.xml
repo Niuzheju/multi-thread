@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="多线程操作集合线程安全测试">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="代码优化">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ThreadCommonlyUsedMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CyclicBarrierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReadWriteLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReadWriteLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SemaphoreThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SemaphoreThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThreadCreateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +159,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.ccnode.codegenerator.M.d" />
   </component>
-  <component name="RunManager" selected="JUnit.CyclicBarrierTest.test01">
-    <configuration name="ReadWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadWriteLockTest" />
-      <module name="multi-thread" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadCommonlyUsedMethodTest">
     <configuration name="SemaphoreThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SemaphoreThread" />
       <module name="multi-thread" />
@@ -176,13 +167,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="ThreadCommonlyUsedMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadCommonlyUsedMethodTest" />
+      <module name="multi-thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,10 +207,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadCommonlyUsedMethodTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="multi-thread" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreadTest" />
+      <option name="MAIN_CLASS_NAME" value="ThreadCommonlyUsedMethodTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -219,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadCommonlyUsedMethodTest" />
+        <item itemvalue="JUnit.ThreadCommonlyUsedMethodTest.test01" />
         <item itemvalue="JUnit.CyclicBarrierTest.test01" />
         <item itemvalue="Application.SemaphoreThread" />
         <item itemvalue="JUnit.CountDownLatchTest.test01" />
-        <item itemvalue="Application.ReadWriteLockTest" />
-        <item itemvalue="JUnit.ThreadTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +263,8 @@
       <workItem from="1676362289727" duration="1131000" />
       <workItem from="1676364277448" duration="130000" />
       <workItem from="1676443701662" duration="50000" />
-      <workItem from="1676443770344" duration="3586000" />
+      <workItem from="1676443770344" duration="3985000" />
+      <workItem from="1676531507648" duration="5086000" />
     </task>
     <task id="LOCAL-00001" summary="ForkJoin用法">
       <created>1615885863944</created>
@@ -335,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659946517632</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="代码优化">
+      <created>1676448847483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676448847483</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -480,7 +488,8 @@
     <MESSAGE value="队列的使用" />
     <MESSAGE value="自定义阻塞队列, 引用类型, CopyOnWrite" />
     <MESSAGE value="多线程操作集合线程安全测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程操作集合线程安全测试" />
+    <MESSAGE value="代码优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

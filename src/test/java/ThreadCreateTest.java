@@ -7,7 +7,7 @@ import java.util.concurrent.FutureTask;
  * @Author niuzheju
  * @Date 15:49 2023/2/14
  */
-public class ThreadTest {
+public class ThreadCreateTest {
 
     @Test
     public void test01() throws ExecutionException, InterruptedException {
