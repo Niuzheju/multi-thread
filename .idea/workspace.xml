@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="代码优化">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ThreadCommonlyUsedMethodTest.java" afterDir="false" />
+    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="添加线程常用方法">
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/PersonSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThreadCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnsafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnsafeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +22,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="multi-thread" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +56,9 @@
         <option value="$PROJECT_DIR$/src/test/java/ThreadExceutorPoolTest.java" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -145,24 +148,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.ccnode.codegenerator.M.d" />
-  </component>
-  <component name="RunManager" selected="Application.ThreadCommonlyUsedMethodTest">
-    <configuration name="SemaphoreThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SemaphoreThread" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Counter">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeFromBook.Counter" />
       <module name="multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeFromBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,25 +194,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountDownLatchTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadLocalTest" />
       <module name="multi-thread" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CountDownLatchTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Counter" />
+        <item itemvalue="Application.ThreadLocalTest" />
         <item itemvalue="Application.ThreadCommonlyUsedMethodTest" />
         <item itemvalue="JUnit.ThreadCommonlyUsedMethodTest.test01" />
         <item itemvalue="JUnit.CyclicBarrierTest.test01" />
-        <item itemvalue="Application.SemaphoreThread" />
-        <item itemvalue="JUnit.CountDownLatchTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +268,13 @@
       <workItem from="1676364277448" duration="130000" />
       <workItem from="1676443701662" duration="50000" />
       <workItem from="1676443770344" duration="3985000" />
-      <workItem from="1676531507648" duration="5086000" />
+      <workItem from="1676531507648" duration="5853000" />
+      <workItem from="1676614162337" duration="3734000" />
+      <workItem from="1676873703222" duration="100000" />
+      <workItem from="1676873812841" duration="3137000" />
+      <workItem from="1676963007486" duration="1011000" />
+      <workItem from="1676966938400" duration="207000" />
+      <workItem from="1688454932872" duration="3163000" />
     </task>
     <task id="LOCAL-00001" summary="ForkJoin用法">
       <created>1615885863944</created>
@@ -343,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676448847483</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加线程常用方法">
+      <created>1676539075005</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676539075005</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -453,15 +470,6 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -476,7 +484,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -489,7 +505,8 @@
     <MESSAGE value="自定义阻塞队列, 引用类型, CopyOnWrite" />
     <MESSAGE value="多线程操作集合线程安全测试" />
     <MESSAGE value="代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
+    <MESSAGE value="添加线程常用方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加线程常用方法" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
