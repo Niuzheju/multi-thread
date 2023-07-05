@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="添加线程常用方法">
-      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/PersonSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="看书写代码">
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/DelegatingVehicleTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/MonitorVehicleTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnsafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnsafeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +149,7 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/喝彩资料备份/工作_喝彩网/code_study/multi-thread/src/test/java/codeFromBook",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -162,7 +160,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Counter">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\喝彩资料备份\工作_喝彩网\code_study\multi-thread\src\test\java\codeFromBook" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DelegatingVehicleTracker">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -176,6 +179,32 @@
     </configuration>
     <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codeFromBook.Counter" />
+      <module name="multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeFromBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DelegatingVehicleTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeFromBook.DelegatingVehicleTracker" />
+      <module name="multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeFromBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorVehicleTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeFromBook.MonitorVehicleTracker" />
       <module name="multi-thread" />
       <extension name="coverage">
         <pattern>
@@ -201,33 +230,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="multi-thread" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CyclicBarrierTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadCommonlyUsedMethodTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="multi-thread" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreadCommonlyUsedMethodTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DelegatingVehicleTracker" />
+        <item itemvalue="Application.MonitorVehicleTracker" />
         <item itemvalue="Application.Counter" />
         <item itemvalue="Application.ThreadLocalTest" />
         <item itemvalue="Application.ThreadCommonlyUsedMethodTest" />
-        <item itemvalue="JUnit.ThreadCommonlyUsedMethodTest.test01" />
-        <item itemvalue="JUnit.CyclicBarrierTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +283,8 @@
       <workItem from="1676873812841" duration="3137000" />
       <workItem from="1676963007486" duration="1011000" />
       <workItem from="1676966938400" duration="207000" />
-      <workItem from="1688454932872" duration="3163000" />
+      <workItem from="1688454932872" duration="3297000" />
+      <workItem from="1688536980502" duration="7160000" />
     </task>
     <task id="LOCAL-00001" summary="ForkJoin用法">
       <created>1615885863944</created>
@@ -360,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676539075005</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="看书写代码">
+      <created>1688459345890</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688459345890</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -506,7 +523,8 @@
     <MESSAGE value="多线程操作集合线程安全测试" />
     <MESSAGE value="代码优化" />
     <MESSAGE value="添加线程常用方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加线程常用方法" />
+    <MESSAGE value="看书写代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="看书写代码" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
