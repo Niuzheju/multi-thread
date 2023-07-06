@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="看书写代码">
-      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/DelegatingVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/MonitorVehicleTracker.java" afterDir="false" />
+    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="看书写代码2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/PublishingVehicleTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/VisualComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,21 +145,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/喝彩资料备份/工作_喝彩网/code_study/multi-thread/src/test/java/codeFromBook",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/喝彩资料备份/工作_喝彩网/code_study/multi-thread/src/test/java/codeFromBook&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\喝彩资料备份\工作_喝彩网\code_study\multi-thread\src\test\java\codeFromBook" />
@@ -284,7 +284,8 @@
       <workItem from="1676963007486" duration="1011000" />
       <workItem from="1676966938400" duration="207000" />
       <workItem from="1688454932872" duration="3297000" />
-      <workItem from="1688536980502" duration="7160000" />
+      <workItem from="1688536980502" duration="7392000" />
+      <workItem from="1688627305389" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="ForkJoin用法">
       <created>1615885863944</created>
@@ -377,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688459345890</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="看书写代码2">
+      <created>1688545459431</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688545459431</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -524,7 +532,8 @@
     <MESSAGE value="代码优化" />
     <MESSAGE value="添加线程常用方法" />
     <MESSAGE value="看书写代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="看书写代码" />
+    <MESSAGE value="看书写代码2" />
+    <option name="LAST_COMMIT_MESSAGE" value="看书写代码2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
