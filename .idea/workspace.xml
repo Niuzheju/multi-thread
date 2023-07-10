@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="看书写代码2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/PublishingVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/VisualComponent.java" afterDir="false" />
+    <list default="true" id="41a58106-8728-40f0-9493-4f342585f04a" name="Default Changelist" comment="看书写代码3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/BetterVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codeFromBook/ListHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +165,7 @@
       <recent name="E:\喝彩资料备份\工作_喝彩网\code_study\multi-thread\src\test\java\codeFromBook" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DelegatingVehicleTracker">
+  <component name="RunManager" selected="Application.BetterVector">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -173,6 +173,19 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BetterVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeFromBook.BetterVector" />
+      <module name="multi-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeFromBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,13 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCommonlyUsedMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadCommonlyUsedMethodTest" />
-      <module name="multi-thread" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadLocalTest" />
       <module name="multi-thread" />
@@ -232,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BetterVector" />
         <item itemvalue="Application.DelegatingVehicleTracker" />
         <item itemvalue="Application.MonitorVehicleTracker" />
         <item itemvalue="Application.Counter" />
         <item itemvalue="Application.ThreadLocalTest" />
-        <item itemvalue="Application.ThreadCommonlyUsedMethodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +291,8 @@
       <workItem from="1676966938400" duration="207000" />
       <workItem from="1688454932872" duration="3297000" />
       <workItem from="1688536980502" duration="7392000" />
-      <workItem from="1688627305389" duration="2395000" />
+      <workItem from="1688627305389" duration="2489000" />
+      <workItem from="1688972703160" duration="2442000" />
     </task>
     <task id="LOCAL-00001" summary="ForkJoin用法">
       <created>1615885863944</created>
@@ -385,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688545459431</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="看书写代码3">
+      <created>1688630923815</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688630923815</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -533,7 +547,8 @@
     <MESSAGE value="添加线程常用方法" />
     <MESSAGE value="看书写代码" />
     <MESSAGE value="看书写代码2" />
-    <option name="LAST_COMMIT_MESSAGE" value="看书写代码2" />
+    <MESSAGE value="看书写代码3" />
+    <option name="LAST_COMMIT_MESSAGE" value="看书写代码3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
